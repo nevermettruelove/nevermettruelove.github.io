@@ -1,4 +1,36 @@
 body {
     background-color: #292929;
     color: white;
+    font-family: 'Slackside One', cursive;
+}
+
+.header {
+    padding: 10px;
+    width: fit-content;
+}
+
+.content {
+    float: left;
+    font-size: 40px;
+    
+}
+
+#Darkie {
+    text-decoration: none;
+}
+
+.content::before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  
+    display: block;
+    border-radius: 10%;
+    background-image: url('https://www.icegif.com/wp-content/uploads/2022/04/icegif-833.gif');
+    background-size: cover;
+    width: 70%;
+    height: 40%;
+    filter: brightness(55%);
 }
